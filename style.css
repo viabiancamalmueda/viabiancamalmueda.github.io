@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,700;1,400&family=Lato:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.html {
+    font-size: 10px;
+    font-family: 'Andika', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url(moon\ _2.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+#hero::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: lightcoral;
+    opacity: .7;
+    z-index: -1;
+}
+
+#hero h1 {
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: black;
+    top: 10%;
+    left :100%;
+}
+#hero h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* End Hero Section */
+
+/* Home Section */
+#home{}
+#home .home{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#home .home-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    text-align: center;
+}
+
+#home{
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+.aboutme{
+    background: url(bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.family{
+    background: url(bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hobbies{
+    background: url(bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.skills{
+    background: url(bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.strength{
+    background: url(bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.career{
+    background: url(bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.aboutme{
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+#image 1{
+    width: 50px;
+    height: 10px;
+}
+
+#image 2{
+    width: 50px;
+    height: 10px;
+}
+
+#image 3{
+    width: 50px;
+    height: 10px;
+}
+
+#image 4{
+    width: 50px;
+    height: 10px;
+}
+
+#image 5{
+    width: 50px;
+    height: 10px;
+}
+
+#image 6{
+    width: 50px;
+    height: 10px;
+}
+
+#image 7{
+    width: 50px;
+    height: 10px;
+}
+
+#image 9{
+    width: 50px;
+    height: 10px;
+}
+
+#image 10{
+    width: 50px;
+    height: 10px;
+}
+
+#icon 1{
+    width: 70px;
+    height: 10px;
+}
+
+#icon 2{
+    width: 70px;
+    height: 10px;
+}
+
+#icon 3{
+    width: 70px;
+    height: 10px;
+}
+
+#icon 4{
+    width: 70px;
+    height: 10px;
+}
+
+#icon 5{
+    width: 70px;
+    height: 10px;
+}
+
+#icon 6{
+    width: 70px;
+    height: 10px;
+}
+
+#icon 7{
+    width: 70px;
+    height: 10px;
+}
+
+
+#hero .BTN{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    left: 285px;
+    width: 190px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    background: lightcoral;
+}
+#hero .BTN:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff; 
+
+}
+h2{
+    font-size: 50px;
+}
+
+/* End Home Section */
